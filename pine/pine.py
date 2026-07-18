@@ -120,7 +120,25 @@ class PINEPruner:
         samples = X_fit_arr if pruner_samples is None else self._as_encoded_array(pruner_samples)
         self.pruner_.add_samples(samples)
         if prune:
+            model = self.pruner_
+            model.update()
+
+            print(
+                "[Gurobi before pruning] "
+                f"variables={model.NumVars}, "
+                f"constraints={model.NumConstrs}"
+            )
+
             self.pruner_.prune()
+
+            model.update()
+
+            print(
+                "[Gurobi after pruning] "
+                f"variables={model.NumVars}, "
+                f"constraints={model.NumConstrs}, "
+                f"oracle_calls={self.pruner_.oracle_calls}"
+           )
         return self
 
     @property
