@@ -1,0 +1,28 @@
+Date: 2026-08-01T23:00:48.1248261+01:00
+Repository: D:\Desktop\Research\ICML2026\pine
+Python version:
+Python 3.11.9
+Python executable:
+D:\Desktop\Research\ICML2026\pine\.venv\Scripts\python.exe
+Gurobi version:
+(12, 0, 3)
+colorama==0.4.6
+gurobipy==12.0.3
+iniconfig==2.3.0
+joblib==1.5.3
+narwhals==2.24.0
+numpy==2.4.6
+packaging==26.2
+pandas==3.0.3
+-e git+https://github.com/miranitta/pine.git@a26f384c7bdd995da7511a3690b0c1c40b761041#egg=pine_pruner
+pluggy==1.6.0
+Pygments==2.20.0
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+scikit-learn==1.9.0
+scipy==1.17.1
+six==1.17.0
+threadpoolctl==3.6.0
+typing_extensions==4.16.0
+tzdata==2026.3
+xgboost==3.2.0

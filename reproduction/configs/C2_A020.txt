@@ -1,0 +1,17 @@
+experiment_id=C2_A020
+claim=Claim 2 - alpha controls coverage
+dataset=breast_cancer
+model=xgb
+n_estimators=10
+max_depth=2
+learning_rate=0.1
+seed=0
+alpha=0.20
+n_bins=4
+beta=1.0
+norm=1
+max_oracle_calls=100
+test_size=0.25
+calibration_size=0.25
+gurobi_output=0
+output=reproduction\results\C2_A020.csv

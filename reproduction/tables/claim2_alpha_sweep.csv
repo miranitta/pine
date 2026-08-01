@@ -1,0 +1,6 @@
+dataset,model,alpha,n_bins,beta,accuracy.mean,accuracy.std,fidelity.mean,fidelity.std,in_region_coverage.mean,in_region_coverage.std,in_region_fidelity.mean,in_region_fidelity.std,n_active_estimators.mean,n_active_estimators.std,n_estimators.mean,n_estimators.std,oracle_calls.mean,oracle_calls.std,pruning_rate.mean,pruning_rate.std,runtime_sec.mean,runtime_sec.std,seed.mean,seed.std,tau.mean,tau.std
+breast_cancer,xgb,0.05,4,1.0,0.902097902097902,,1.0,,0.93006993006993,,1.0,,10.0,,10.0,,5.0,,0.0,,1.183639199938625,,0.0,,9.528444334864172,
+breast_cancer,xgb,0.1,4,1.0,0.902097902097902,,1.0,,0.8741258741258742,,1.0,,9.0,,10.0,,3.0,,0.0999999999999999,,0.6754964999854565,,0.0,,7.704634706495532,
+breast_cancer,xgb,0.2,4,1.0,0.902097902097902,,1.0,,0.8041958041958042,,1.0,,9.0,,10.0,,3.0,,0.0999999999999999,,0.6752031000796705,,0.0,,6.655973106201259,
+breast_cancer,xgb,0.4,4,1.0,0.8951048951048951,,0.993006993006993,,0.5454545454545454,,1.0,,8.0,,10.0,,1.0,,0.1999999999999999,,0.4264835999347269,,0.0,,3.910909892255864,
+breast_cancer,xgb,0.8,4,1.0,0.8951048951048951,,0.993006993006993,,0.2167832167832167,,1.0,,8.0,,10.0,,1.0,,0.1999999999999999,,0.407591599971056,,0.0,,2.500631416117637,
